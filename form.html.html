@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Ankush Rathod" content="">
+  <meta name="Keywords" content="Form">
+  <meta name="Description" content="Registration form">
+  <title>Form</title>
+		<style>
+			body{
+				background-color: lightblue;
+			}
+			
+			.container{
+				background-color: white;
+				width: 900px;
+				display: block;
+				margin: 30px auto;
+				border-radius: 30px;
+				overflow: hidden;
+				box-sizing: border-box;
+			}
+			
+			.col-50{
+				display: block;
+				width: 50%;
+				box-sizing: border-box;
+				float: left;
+			}
+			
+			form{
+				margin-top: 40px;
+			}
+			
+			form label{
+				display: block;
+				width: 100%;
+				float: left;
+				box-sizing: border-box;
+				margin: 5px 10px;
+			}
+			
+			form input[type=text]{
+				padding: 8px 10px;
+				margin: 5px 10px;
+				display: block;
+				float:left;
+				width: 100%;
+				border: 1px solid #ccc;
+				box-sizing: border-box;
+			}
+			
+			form button{
+				background-color: blue;
+				color: white;
+				padding: 10px;
+				margin: 8px 10px;
+				border: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container" style="height: 500px;">
+			<div class="col-50" style="background-color: #0059b3; color: white; height: 100%; padding: 20px;">
+				<h2>Information</h2>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				<button>
+					Have and account
+				</button>
+			</div>
+			<div class="col-50" style="padding: 20px;">
+				<form>
+					<div class="col-100">
+						<div class="col-50" style="padding:10px;">
+							<label>First name</label>
+							<input type="text" placeholder="Enter your first name" />
+						</div>
+						<div class="col-50" style="padding:10px;">
+							<label>Last name</label>
+							<input type="text" placeholder="Enter your last name" />
+						</div>
+					</div>
+					<div class="col-100" style="padding:10px;">
+						<label>Your Email</label>
+						<input type="text" placeholder="Enter your email" />
+					</div>
+					<div class="col-100">
+						<div class="col-50" style="padding:10px;">
+							<label>Password</label>
+							<input type="text" placeholder="Enter Password" />
+						</div>
+						<div class="col-50" style="padding:10px;">
+							<label>Confirm Password</label>
+							<input type="text" placeholder="Re-enter Password" />
+						</div>
+					</div>
+					<div class="col-100">
+						<button>
+							Register
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
